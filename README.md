@@ -23,7 +23,7 @@ Show some ❤️ and 🌟 the repo to support the project
 - [References 💻](#references-)
 - [Author 📝](#author-)
 - [Connect Me On 🌍](#connect-me-on-)
-- [License 🏆](#license-)
+
 
 ## Features Of LCMS 🚀
 
@@ -89,7 +89,3 @@ Show some ❤️ and 🌟 the repo to support the project
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 
 
-
-## License 🏆
-
-This repository is licensed under MIT License. Find [LICENSE](LICENSE) to know more
