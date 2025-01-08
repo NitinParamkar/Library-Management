@@ -7,17 +7,12 @@ function PhotoGallery() {
         <div className='photogallery-container'>
             <h1 className='photogallery-title'>Photo Gallery</h1>
             <div className="photogallery-images">
-                {/* task1: sahil bhai niche wale links change kardena  */}
-                <img src="https://source.unsplash.com/1300x1200/?algeria" alt=''/>
-                <img src="https://source.unsplash.com/1300x1200/?lebanon" alt=''/>
-                <img src="https://source.unsplash.com/1300x1200/?qatar" alt=''/>
-                <img src="https://source.unsplash.com/1300x1200/?uae" alt=''/>
-                <img src="https://source.unsplash.com/1300x1200/?kuwait" alt=''/>
-                <img src="https://source.unsplash.com/1300x1200/?oman" alt=''/>
-                <img src="https://source.unsplash.com/1300x1200/?turkey" alt=''/>
-                <img src="https://source.unsplash.com/1300x1200/?iran" alt=''/>
-                <img src="https://source.unsplash.com/1300x1200/?jordan" alt=''/>
-                <img src="https://source.unsplash.com/1300x1200/?Kuwait" alt=''/>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71t4GuxLCuL.jpg" alt=''/>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81mXQdi5x+L.jpg" alt=''/>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg" alt=''/>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71m-MxdJ2WL.jpg" alt=''/>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71t4GuxLCuL.jpg" alt=''/>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81mXQdi5x+L.jpg" alt=''/>
             </div>
             <button>VIEW MORE<ArrowForwardIosIcon style={{fontSize:20}}/></button>
         </div>
