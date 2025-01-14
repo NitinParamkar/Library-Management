@@ -19,6 +19,7 @@ function App() {
           <Route exact path='/'>
             <Home />
           </Route>
+
           <Route exact path='/signin'>
             {user ? (
               user.isAdmin ? <Redirect to='/dashboard@admin' /> : <Redirect to='/dashboard@member' />
@@ -26,6 +27,7 @@ function App() {
               <Signin />
             )}
           </Route>
+
           <Route exact path='/dashboard@member'>
             {user ? (
               user.isAdmin === false ? <MemberDashboard /> : <Redirect to='/' />
@@ -33,6 +35,7 @@ function App() {
               <Redirect to='/' />
             )}
           </Route>
+
           <Route exact path='/dashboard@admin'>
             {user ? (
               user.isAdmin === true ? <AdminDashboard /> : <Redirect to='/' />
@@ -40,6 +43,7 @@ function App() {
               <Redirect to='/' />
             )}
           </Route>
+
           <Route exact path='/books'>
             <Allbooks />
           </Route>
